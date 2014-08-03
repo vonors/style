@@ -1,0 +1,1543 @@
+/**
+* vBulletin 3.8.4 CSS.
+* Style: 'aaa' (version 1.0) color: blue.
+* Copyright © 2014 - 2015 , All rights reserved.
+*/
+
+a:link, body_alink
+{
+	color: #aa0000;
+	text-decoration: none;
+}
+a:visited, body_avisited
+{
+	color: #aa0000;
+	text-decoration: none;
+}
+a:hover, a:active, body_ahover
+{
+	color: #d70000;
+	text-decoration: none;
+}
+.page
+{
+	background: #e9e9e9;
+	color: #434343;
+	font: 8pt tahoma;
+}
+td, th, p, li
+{
+	font: 8pt tahoma;
+}
+.tborder
+{
+	background: none;
+	color: #000000;
+	border: 1px solid #c0c0c0;
+
+}
+.tcat
+{
+	background: #550202 url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png') repeat-x ;
+	background-position: 0 -617px;
+	color: #FFFFFF;
+	font: bold 8pt tahoma;
+}
+.tcat a:link, .tcat_alink
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tcat a:visited, .tcat_avisited
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tcat a:hover, .tcat a:active, .tcat_ahover
+{
+	color: #ffffff;
+	text-decoration:underline ;
+}
+.thead
+{
+	background: #a2a2a2 url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png') repeat-x ;
+	background-position: 0 -717px;
+	color: #585858;
+	font: bold 8pt tahoma;
+
+}
+.thead a:link, .thead_alink
+{
+	color: #585858;
+}
+.thead a:visited, .thead_avisited
+{
+	color: #585858;
+}
+.thead a:hover, .thead a:active, .thead_ahover
+{
+	color: #363636;
+}
+.tfoot
+{
+	background: #a2a2a2 url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png') repeat-x ;
+	background-position: 0 -717px;
+	color: #585858;
+	font: 8pt tahoma;
+}
+.tfoot a:link, .tfoot_alink
+{
+	color: #585858;
+}
+.tfoot a:visited, .tfoot_avisited
+{
+	color: #585858;
+}
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover
+{
+	color: #363636;
+}
+.alt1, .alt1Active
+{
+	background: #f3f3f3;
+	color: #666666;
+	font: 9pt tahoma;
+	border-bottom: 1px solid #d9d9d9;
+	border-top: 1px solid #fff;
+}
+.alt1thread {
+	background: #ededed;
+	color: #454545;
+	font: 9pt tahoma;
+	border-bottom: 1px solid #c6c6c6;
+}
+.alt2thread{
+	background: #ededed;
+	color: #454545;
+	font: 9pt tahoma;
+	border-top: 1px solid #fff;
+
+}
+/* START/subforumsblock */
+.subforumsblock {
+	 display: none;
+	 width: 500px;
+	 position: absolute ;
+	 right: 0;
+	 top: 16px;
+}
+.subforumskay  {
+    position: relative ;
+    font-size: 10px;
+    width: 90px;
+    height: 15px;
+    padding-top: 3px;
+}
+.subforumskay a {
+	display: block ;
+}
+.arrowsub  {
+     width: 9px;
+     height: 5px;
+     background: url('http://i39.servimg.com/u/f39/14/47/74/90/sub_me10.gif') ;
+     display:  inline-block  ;
+     vertical-align: middle ;
+}
+.subforumskay:hover .sublink{
+	color: #616161 ;
+}
+.subforumskay:hover .subforumsblock {
+	display: block ;
+	 z-index: 999;
+}
+.subforumskay:hover {
+	z-index: 9999;
+}
+.subforumskay:hover .arrowsub {
+	background-position: 0 -5px;
+}
+.arrowlink:hover .arrowsub {
+	background-position: 0 -5px;
+}
+
+/* END/subforumsblock */
+/* START/forums Statistics */
+.partstat {
+	 padding: 0;
+	 margin: 0;
+	 list-style: none ;
+}
+.partstat li {
+	border-bottom: 1px solid #d9d9d9;
+	border-top: 1px solid #fff;
+	padding: 2px 3px 4px 3px; ;
+    text-align: left ;
+}
+.partstat li span {
+	 color: #4f4f4f;
+	text-align: left ;
+}
+.partstat li .fotanema {
+	color : #6d6d6d;
+	font: 10px tahoma;
+	float: right ;
+}
+/* END/forums Statistics */
+.threadblon {
+	background: #fff;
+	color: #666666;
+	border-bottom: 2px solid #d1d1d1;
+	border-top: 1px solid #d1d1d1;
+	border-right: 1px solid #d1d1d1;
+	border-left: 1px solid #d1d1d1;
+	padding: 10px ;
+}
+.threadblonlegacytop {
+	background: #fff;
+	color: #666666;
+	border-bottom: none;
+	border-top: 1px solid #d1d1d1;
+	border-right: 1px solid #d1d1d1;
+	border-left: 1px solid #d1d1d1;
+	padding: 10px 10px 0 10px;
+}
+.threadblonlegacybottom {
+	background: #fff;
+	color: #666666;
+	border-bottom: 2px solid #d1d1d1;
+	border-top: none;
+	border-right: 1px solid #d1d1d1;
+	border-left: 1px solid #d1d1d1;
+	padding: 0 10px 10px 10px;
+}
+.blonhead {
+	border-bottom: 1px solid #e7e7e7; 
+	margin-bottom: 8px; 
+	padding-bottom: 8px; 
+	color: #878787;
+	font: 8pt tahoma;
+	 text-align: left ;
+	 overflow: hidden ;
+	
+}
+.authorBox {
+	background: #f9f9f9;
+	color: #454545;
+	border-bottom: 2px solid #d9d9d9;
+	border-top: 1px solid #d9d9d9;
+	border-right: 1px solid #d9d9d9;
+	border-left: 1px solid #d9d9d9;
+	 padding: 5px ;
+	overflow: hidden ;
+	width: 190px;
+}
+/* START/authorinfo */
+.authorinfo {
+	padding: 0;
+	margin: 0;
+	list-style: none ;
+}
+.authorinfo li {
+	width: 190px;
+	border-bottom: 1px  #e0e0e0 solid;
+	border-top: 1px  #fff solid;
+	padding: 1px 1px 3px 1px ;
+	color: #aa0000;
+	white-space: nowrap ;
+	display: inline-block ;
+}
+.authorinfo .headinfo {
+    margin: 0 0 0 4px;
+    padding: 0;
+	color : #6d6d6d;
+	width: 70px;
+	display: inline-block;
+}
+.authorinfo .barinfo {
+	display: inline-block;
+	vertical-align: middle ;
+}
+/* END/authorinfo */
+.arrowbox {
+	position: relative ;
+}
+.toparrow{
+	border-right:22px dashed transparent;
+	border-top:19px solid #fff;
+	height:0;
+	width: 0;
+	top: 27px;
+	right: 3px;
+	position: absolute ;
+	z-index: 50;
+
+}
+.downarrow {
+	border-right:22px dashed transparent;
+	border-top:20px solid #cccccc;
+	height:0;
+	width: 0;
+	top: 26px;
+	right: 1px;
+	position: absolute ;
+}
+.thpsqute {
+	border: 1px solid #d1d1d1 ;
+	background-color: #fafafa;
+	overflow: hidden ;
+}
+.alt2, .alt2Active
+{
+	background: #ebebeb;
+	color: #666666;
+	font: 8pt tahoma;
+	border-bottom: 1px solid #d9d9d9;
+	border-top: 1px solid #fff;
+}
+.inlinemod
+{
+	background: #fefee4;
+	color: #000000;
+	font-family: tahoma;
+}
+.wysiwyg
+{
+	background: #fff;
+	color: #000000;
+	margin: 5px 10px 10px 10px;
+	padding: 0px;
+	font-size: 8pt;
+
+}
+.wysiwyg a:link, .wysiwyg_alink
+{
+	color: #22229C;
+}
+.wysiwyg a:visited, .wysiwyg_avisited
+{
+	color: #22229C;
+}
+.wysiwyg a:hover, .wysiwyg a:active, .wysiwyg_ahover
+{
+	color: #FF4400;
+}
+textarea, .bginput
+{
+	font: 8pt tahoma;
+	margin-bottom: 6px;
+	background: #f9f9f9 ;
+   	border: 1px solid #b5b5b5 ;
+   	font: 9pt tahoma;  
+    color: #535353;
+	margin: 5px 3px 3px 3px;
+	padding: 2px;
+}
+.bginput option, .bginput optgroup
+{
+	font-size: 8pt;
+	font-family: tahoma;
+	
+}
+.button
+{
+	font: 8pt tahoma ;
+	padding: 2px 6px 2px 6px;
+	margin: 0;
+	color: #4a4a4a;
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png')  #bbbaba  ;
+	background-position: 0 -497px;
+	border: 1px solid #9c9c9c;
+	cursor: pointer ;
+}
+.button:hover {
+	background-position: 0 -537px;
+}
+.button:active  {
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png') #f6f6f6  ;
+	background-position: 0 -575px;
+}
+
+select
+{
+	background: #f1f1f1 ;
+    border: 1px solid #a09e9e ;
+  	font:8pt tahoma;  
+ 	color: #535353;
+	margin: 2px 3px 3px 3px;
+	padding: 2px;
+}
+option, optgroup
+{
+	font-size: 8pt;
+	font-family: tahoma;
+}
+.smallfont
+{
+	font: 8pt tahoma;
+}
+.time
+{
+	color: #666686;
+	font-family: tahoma;
+}
+.navbar
+{
+	font: 8pt tahoma;
+}
+.highlight
+{
+	color: #FF0000;
+	font: bold 8pt tahoma;
+}
+.fjsel
+{
+	background: #3E5C92;
+	color: #E0E0F6;
+}
+.fjdpth0
+{
+	background: #F7F7F7;
+	color: #000000;
+}
+.panel
+{
+	color: #494949;
+	font-family: tahoma;
+	padding: 10px;
+}
+.panelsurround
+{
+	background-color:  #f3f3f3 ;
+	color: #000000;
+	font-family: tahoma;
+	border-top: 1px solid #fff;
+}
+legend
+{
+	color: #6a6a6a;
+	font: 8pt tahoma;
+	font-weight: bold ;
+}
+.vbmenu_control
+{
+	background: #550202 url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png') repeat-x ;
+	background-position: 0 -617px;
+	color: #FFFFFF;
+	font: bold 8pt tahoma;
+	padding: 3px 4px 3px 6px;
+	white-space: nowrap;
+}
+.vbmenu_control_mod
+{
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png') repeat-x ;
+	background-position: 0 -617px;
+	color: #fcfbb9;
+	font: bold 8pt tahoma;
+	padding: 3px 8px 3px 6px;
+	white-space: nowrap;
+}
+
+.vbmenu_control a:link, .vbmenu_control_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_control a:visited, .vbmenu_control_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover
+{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.vbmenu_popup
+{
+	color: #343434;
+	font-family: tahoma;
+	border-top: 1px solid #a6a6a6;
+	border-right: 2px solid #a6a6a6;
+	border-left: 1px solid #a6a6a6;
+	border-bottom: 2px solid #a6a6a6;
+	background:url('http://i39.servimg.com/u/f39/14/47/74/90/logfor10.gif') repeat-x  #e6e7e6;
+}
+.vbmenu_option
+{
+	color: #343434;
+	font: 8pt tahoma;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_option a:link, .vbmenu_option_alink
+{
+	color: #343434;
+	text-decoration: none;
+}
+.vbmenu_option a:visited, .vbmenu_option_avisited
+{
+	color: #343434;
+	text-decoration: none;
+}
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_hilite
+{
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png') repeat-x  #6c6c6c;
+	background-position: 0 -801px;
+	color: #FFFFFF;
+	font: 8pt tahoma;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_hilite a:link, .vbmenu_hilite_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_hilite a:visited, .vbmenu_hilite_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_hilite a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 13pt; }
+
+/* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead { padding: 4px; }
+
+/* ***** basic styles for multi-page nav elements */
+.pagenav a { text-decoration: none; }
+.pagenav td { padding: 2px 4px 2px 4px; }
+
+/* ***** de-emphasized text */
+.shade, a.shade:link, a.shade:visited { color: #777777;  }
+a.shade:active, a.shade:hover { color: #FF4400; text-decoration: underline; }
+.tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD; }
+
+/* ***** define margin and font-size for elements inside panels ***** */
+fieldset {  padding:8px; margin-bottom: 10px;border:1px solid #cccccc;}
+.fieldset td, .fieldset p, .fieldset li { font-size: 11px;  }
+/* yoctoPix v1.0 CSS Style */
+body
+{
+	background-color: #3f3f3f;
+	color: #4f4f4f;
+	font: 8pt tahoma;
+	margin: 0;
+	padding: 0 ;
+}
+#header_warp {
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png') repeat-x 0 0 #3f3f3f;
+	width: 100%;
+	height: 195px;
+	position:absolute;
+	left:0;
+	z-index: -10;
+}
+#content_f{
+	width:970px;;/* for Expanded style , just change this to 100% */
+	min-width: 970px; 
+	margin: 0 auto ;
+	padding-bottom: 10px;
+}
+/* START/HEADER/topbox */
+#header {
+	width:  auto ;
+}
+#header #top {
+	height: 113px;
+	margin: 0px auto;
+}
+/* START/HEADER/TOPBOX/rightpart */
+/* START/HEADER/TOPBOX/RIGHTPART/infobox */
+#infobox {
+	width: 268px;
+	margin-right:24px;
+	padding: 0px;
+	float: right ;
+	border-bottom: 1px solid #2672a0;
+	border-right: 1px solid #2672a0;
+	border-left: 1px solid #2672a0;
+}
+#ininfobox {
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png') repeat-x  ;
+	background-position: 0 -195px;
+	border-bottom: 1px solid #001e31;
+	border-right: 1px solid #001e31;
+	border-left: 1px solid #001e31;
+	width: 250px;
+	float: right ;
+    height: 50px;
+    padding:8px;
+}
+#ininfobox .avatarbox {
+	width:  50px ;
+	height: 50px ;
+	float: right ;
+	margin-left: 8px;
+}
+/* START/notifications_menubit */
+#notifimenu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden ;
+	background-color: #fbfcb3;
+	border: 1px solid #b50000 ;
+}
+#notifimenu span {
+	  background: red url('http://i39.servimg.com/u/f39/14/47/74/90/notifi10.gif');
+	  color: white  ;
+	  font-weight: bold ;
+	  text-align: center ;
+	  display: block ;
+	  padding: 2px 7px 3px 7px;
+}
+#notifimenu li a {
+	   display: block ;
+	   padding: 5px 7px 5px 7px;
+	   border-top: 1px solid #fff;
+	   border-bottom: 1px solid #e5e892;
+}
+#notifimenu li a:hover  {
+	  background-color: red;
+	  color: white ;
+	  border-top: 1px solid red;
+	  border-bottom: 1px solid red;
+}
+/* END/notifications_menubit */
+#ininfobox .notificationsBalloon{
+	background-color: red ;
+ 	z-index: 100;
+	position: absolute ;
+	white-space:nowrap;
+	width:auto ;
+	height:18px;
+	background: red url('http://i39.servimg.com/u/f39/14/47/74/90/notifi11.gif') repeat-x top;
+	/*background: red url('http://i39.servimg.com/u/f39/14/47/74/90/notifi10.gif') repeat-x top;*//*---- for orange back Activate this , & dont forget change arrow color too ----*/
+	padding: 0 3px 0 3px;
+	margin: -3px -3px 0 0 ;
+	font: 9pt tahoma;
+	line-height: 16px;
+	float: right ;
+}
+#ininfobox .notificationsBalloon:hover {
+	background: red url('http://i39.servimg.com/u/f39/14/47/74/90/notifi12.gif') repeat-x top;
+}
+.notificationsBalloon .arrow {
+	border-right:8px dashed transparent;
+	border-top:8px solid #ee0000;
+	/*border-top:8px solid #f78e00;*//*----  Activate this if Balloon color is 'orange' ----*/
+	bottom:-7px;
+	right:4px;
+	line-height:0;
+	height:0; 
+	width:0;
+	position: absolute;
+}
+
+#visinotifications .visitornote {
+	margin: 0;
+	padding: 8px;
+	position: absolute;
+	display: none;
+	border: 1px solid #585858;
+	background:url('http://i39.servimg.com/u/f39/14/47/74/90/logfor10.gif') repeat-x  #E1E1E1;
+	right: 0;
+	width: 350px;
+	text-align: justify ;
+    white-space: normal ;
+    line-height: 15px;
+    font: 8pt tahoma;
+}
+#visinotifications:hover .visitornote {
+	display: block ;
+}
+/* START/HEADER/TOPBOX/RIGHTPART/infobox/mymenupop */
+#mymenupop {
+	width: 180px;
+	padding: 0;
+	list-style: none;
+	float: right ;
+	margin:0;
+}
+#mymenupop .wlc , #mymenupop .lsv {
+    padding: 0 ;
+    margin:0;
+  	width: 180px;
+	height: 20px;
+    float: right;
+}
+#mymenupop .wlc   {
+	position: relative;
+	padding: 0 5px 0 5px;
+	text-decoration: none;
+	height: 26px;
+	background:  url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png') repeat-x  #023555;
+	background-position: 0 -307px;
+	border: 1px solid #002a44;
+	z-index: 20;
+	cursor: pointer ;
+}
+#mymenupop .wlc:hover {
+    text-decoration: none;
+    background: url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png') repeat-x  #02436d;
+    background-position: 0 -343px;
+}
+#mymenupop .wlc span {
+	line-height: 24px;
+    font-size: 8pt;
+    color: #fff;
+}
+.pomg {
+	position:absolute;
+    height: 0px;
+    padding-top: 26px;
+    width:12px; 
+    background: url('http://i39.servimg.com/u/f39/14/47/74/90/menu_o11.gif') no-repeat center  ;	
+	left:10px;
+	cursor:pointer; 
+	top:0;
+}
+#mymenupop .lsv   {
+	text-decoration: none;
+    padding: 0 0 0 10px;	
+}
+#mymenupop .lsv span {
+	 line-height: 24px;
+    font-size: 7pt;
+    color: #b0d8f1;
+}
+.linksmenu  {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	display: none;
+    left: 0;
+	top:27px;
+	border: 1px solid #585858;
+	background:url('http://i39.servimg.com/u/f39/14/47/74/90/logfor10.gif') repeat-x  #e6e7e6;
+}
+.linksmenu ol ,.qlmenu li , .shbox li ,.cpanelsmenu li  {
+	margin: 0;
+	padding: 0;
+	color: gray ;
+}
+.linksmenu ol:hover , .qlmenu li:hover ,.cpanelsmenu li:hover  {
+	background-color: #f3f3f3;
+}
+.stlink {
+	border-bottom:1px solid #bbbbbb;
+}
+.delink {
+    border-top:1px solid #f3f3f3;
+	border-bottom:1px solid #bbbbbb;
+}
+.enlink {
+	border-top:1px solid #f3f3f3;
+} 
+.logoutcl {
+	border-top:1px solid #f3f3f3;
+}
+.linksmenu ol a , .qlmenu li a  {
+	display: block ;
+	padding: 4px 6px 4px 6px; 
+	font: 8pt tahoma;
+}
+.linksmenu .qlinks , .linksmenu .shmenu  {
+	border-top:1px solid #f3f3f3;
+	border-bottom:1px solid #bbbbbb;
+}
+.linksmenu .cpanels {
+	border-bottom:1px solid #bbbbbb;
+}
+.leftarow {
+	position:absolute;
+    height: 15px;
+    width:16px; 
+    background: url('http://i39.servimg.com/u/f39/14/47/74/90/leftar10.gif') no-repeat center  ;	
+	left:5px;
+	cursor:pointer; 
+	vertical-align: middle ;
+}
+.linksmenu .qlinks:hover .leftarow {
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/leftar11.gif') no-repeat center  ;	
+}
+.linksmenu .shmenu:hover .leftarow {
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/leftar11.gif') no-repeat center  ;	
+}
+.linksmenu .cpanels:hover .leftarow {
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/leftar11.gif') no-repeat center  ;	
+}
+
+.qlmenu{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	display: none;
+	right: 100%;
+    top:42%;
+    width: 100%;
+	border: 1px solid #585858;
+	background:url('http://i39.servimg.com/u/f39/14/47/74/90/logfor10.gif') repeat-x  #E1E1E1;
+}
+.shbox{
+	margin: 0;
+	padding: 5px;
+	list-style: none;
+	position: absolute;
+	display: none;
+	right: 100%;
+    top:57%;
+    width: 100%;
+	border: 1px solid #585858;
+	background:url('http://i39.servimg.com/u/f39/14/47/74/90/logfor10.gif') repeat-x  #E1E1E1;
+}
+.cpanelsmenu {
+	margin: 0;
+	padding:0;
+	list-style: none;
+	position: absolute;
+	display: none;
+	right: 100%;
+    top:0;
+    width: 100%;
+	border: 1px solid #585858;
+	background:url('http://i39.servimg.com/u/f39/14/47/74/90/logfor10.gif') repeat-x  #E1E1E1;
+}
+#mymenupop .cpanels:hover .cpanelsmenu{
+	display: block;
+	z-index: 21;
+}
+#mymenupop .qlinks:hover .qlmenu{
+	display: block;
+	z-index: 21;
+}
+#mymenupop .shmenu:hover .shbox {
+	display: block;
+	z-index: 21;
+}
+#mymenupop .wlc:hover .linksmenu {
+	display: block;
+	z-index: 20;
+}
+.iconsp {
+	padding-left:5px;
+	vertical-align: middle ;
+}
+/* START yoctoPixcolorswitch */
+#colorswitch {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 66px;
+	height: 9px;
+	position:absolute ;
+	top:54%;
+	left: 6px;
+}
+#colorswitch li {
+	float: right ;
+	width: 10px;
+	height: 9px;
+	margin: 0  ;
+	padding-left: 1px;
+}
+#colorswitch li a {
+	display: block ;
+}
+#colorswitch .bluegear {
+	background:url('http://i39.servimg.com/u/f39/14/47/74/90/yoctop10.gif') no-repeat ;
+	background-position: -55px 0;
+}
+#colorswitch .bluegear:hover  {
+	background-position: -55px -9px;		
+}
+#colorswitch .bluegear:active    {
+	background-position: -55px -18px;	
+}
+#colorswitch .redgear {
+	background:url('http://i39.servimg.com/u/f39/14/47/74/90/yoctop10.gif') no-repeat ;
+	background-position: -44px 0;
+}
+#colorswitch .redgear:hover  {
+	background-position: -44px -9px;
+}
+#colorswitch .redgear:active   {
+	background-position: -44px -18px;
+}
+#colorswitch .greengear {
+	background:url('http://i39.servimg.com/u/f39/14/47/74/90/yoctop10.gif') no-repeat ;
+	background-position: -33px 0;
+}
+#colorswitch .greengear:hover  {
+	background-position: -33px -9px;
+}
+#colorswitch .greengear:active   {
+	background-position: -33px -18px;
+}
+#colorswitch  .browngear {
+	background:url('http://i39.servimg.com/u/f39/14/47/74/90/yoctop10.gif') no-repeat ;
+	background-position: -22px 0;
+}
+#colorswitch .browngear:hover  {
+	background-position: -22px -9px;
+}
+#colorswitch .browngear:active   {
+	background-position: -22px -18px;
+}
+#colorswitch .pinkgear {
+	background:url('http://i39.servimg.com/u/f39/14/47/74/90/yoctop10.gif') no-repeat ;
+	background-position: -11px 0;
+}
+#colorswitch .pinkgear:hover  {
+	background-position: -11px -9px;
+}
+#colorswitch .pinkgear:active   {
+	background-position: -11px -18px;
+}
+#colorswitch .graygear {
+	background:url('http://i39.servimg.com/u/f39/14/47/74/90/yoctop10.gif') no-repeat ;
+	background-position: 0 0;
+}
+#colorswitch .graygear:hover  {
+	background-position: 0 -9px;
+}
+#colorswitch .graygear:active   {
+	background-position: 0 -18px;
+}
+/* END yoctoPixcolorswitch */
+/* END/HEADER/TOPBOX/RIGHTPART/infobox/mymenupop */
+/* END/HEADER/TOPBOX/RIGHTPART/infobox */
+/*START/yoctoPix Login*/
+.loginform{
+	background:url('http://i39.servimg.com/u/f39/14/47/74/90/logfor10.gif') repeat-x  #E1E1E1;
+	padding: 8px;
+	margin: 0px ;
+	border: 1px solid #333333; 
+	color: #333333;
+	font: 9pt tahoma; 
+}
+.loginform .usernamebox{
+	margin-bottom: 6px;
+    background:url('http://i39.servimg.com/u/f39/14/47/74/90/userin10.gif') no-repeat white;
+	background-position: center 4px ;
+	border: 1px solid #a09e9e ;
+	font: 9pt tahoma;  
+	color: #535353;
+	width: 152px;
+	height: 16px;
+	text-align: center ;
+}
+.loginform .userpasswordbox {
+	margin-bottom: 6px;
+	background:url('http://i39.servimg.com/u/f39/14/47/74/90/userin10.gif') no-repeat white;
+	background-position: center -19px ;
+	border: 1px solid #a09e9e ;
+    font: 9pt tahoma;  
+    color: #535353;
+    width: 152px;
+    height: 16px;
+	text-align: center ;
+}
+.loginform .onfocusbox{
+	 border: 1px solid #6b6b6b ;
+	 margin-bottom: 6px;
+	 background-color: #fffcd1;
+	 font: 9pt tahoma; 
+	 font-weight: bold ; 
+     color: #535353;
+	 width: 152px;
+	 height: 16px;
+	 text-align: center ;
+}
+.loginform .onblurbox{
+	margin-bottom: 6px;
+	background: white ;
+    border: 1px solid #a09e9e ;
+    font: 9pt tahoma;  
+    color: #535353;
+    width: 152px;
+    height: 16px;
+	text-align: center ;
+}
+.loginform .bottombtnsbox {
+	width: 152px;
+	position: static ;
+
+}
+.loginform .ckeckb{
+	width: 72px ;
+	height: 16px;
+	position: static;
+	float: left ;
+	color:#808080  ;
+	text-align: center ;
+	
+}
+.loginform .sumbut {
+	width: 72px;
+	height: 16px; 
+	float: right ; 
+	position: static ; 
+	margin-left: 2px;
+	background:url('http://i39.servimg.com/u/f39/14/47/74/90/btnbac10.gif') repeat-x  #6a6a6a ;
+	border: 1px solid #292929;
+}
+.loginform .butlo {
+	width: 72px;
+ 	text-decoration:none;
+	cursor:pointer;
+	 background: none;
+	font: 8pt tahoma;
+	color:white ;
+	border: none;
+     padding: 0;
+     margin: 0;
+	
+}
+/* END/yoctoPix Login  */
+#vismenu {
+	width: 190px;
+	padding: 0;
+	list-style: none;
+	float: right ;
+	margin:0;
+}
+.logt , .sigt {
+    padding: 0 ;
+    margin:0;
+  	width: 190px;
+	height: 20px;
+    float: right;
+}
+#vismenu .logt   {
+	position: relative;
+	padding: 0;
+	text-decoration: none;
+	height: 26px;
+	background:  url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png') repeat-x  #023555;
+	background-position: 0 -307px;
+	border: 1px solid #002a44;
+	z-index: 20;
+	cursor: pointer ;
+}
+#vismenu .logt:hover {
+    text-decoration: none;
+    background: url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png') repeat-x  #02436d;
+    background-position: 0 -343px;
+}
+#vismenu .logt a {
+	line-height: 24px;
+    font-size: 8pt;
+    color: #fff;
+    display: block ;
+    margin-right: 5px;
+    font-weight: bold ;
+}
+#vismenu .sigt a{
+    border-bottom: 1px dotted #28A4FF;
+    color: #fff;
+    line-height: 20px;
+}
+#vismenu .sigt a:hover {
+	 color:orange ;
+    border-bottom: 1px solid red;
+}
+#vismenu .sigt span {
+	color: #fff;
+     margin-left: 3px; 
+}
+
+/* END/HEADER/TOPBOX/rightpart */
+/* START/HEADER/TOPBOX/leftpart */
+#header #logo {
+	width: 430px;
+	height: 113px;
+	float: left ;
+}
+#header #logo a {
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/images11.jpg') no-repeat  ;
+	background-position: 0 -565px;
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	cursor:pointer ;
+}
+#header #logo a:hover {
+	background-position: -431px -565px;
+}
+/* END/HEADER/TOPBOX/leftpart */
+/* END/HEADER/topbox */
+/* START/HEADER/bottombox */
+#header #bottom {
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png') repeat-x ;
+	background-position: 0 -828px;
+	height: 33px;
+	width:100%;
+	position: relative ;
+	overflow: hidden;
+}
+/* START/HEADER/BOTTOMBOX/navigation */
+#bottom #nav  {
+	height: 23px;
+	position: relative;
+	list-style:none;
+	padding: 0;
+	margin: 0;
+	right: 5px;
+}
+#bottom #nav li {
+	float: right;
+	display:inline;
+	margin: 0 0 0 2px;
+	padding:0;
+	border-top: 1px solid #001929;
+	border-right: 1px solid #001929;
+	border-left: 1px solid #001929;
+}
+#nav li a {
+	text-decoration:none;
+	display:block;	
+	font: 8pt tahoma;
+	padding: 0 11px 0 11px;
+	text-align: center;
+	line-height:17px;
+	height:21px;
+	color:#dedede;
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png') #303030 ;
+	background-position: 0 -407px;
+	border-top:1px solid #848484;
+	border-right:1px solid #848484;
+	border-left:1px solid #848484;
+}
+#nav li a:hover {
+	color:#fff;
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png') #515151;
+	background-position: 0 -377px;
+	border-top:1px solid #565757;
+	border-right:1px solid #565757;
+	border-left:1px solid #565757;
+}
+#nav li a:active {
+	color:#000;
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png') #a1a1a1;
+	background-position: 0 -437px;
+	border-top:1px solid #fff;
+	border-right:1px solid #fff;
+	border-left:1px solid #fff;
+}
+#nav li a.focus
+{
+	color:#464646;
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png') #9c9c9c ;
+	background-position: 0 -467px;
+	border-top:1px solid #fff;
+	border-right:1px solid #fff;
+	border-left:1px solid #fff;
+	height: 22px;
+	line-height:18px;
+}
+/* END/HEADER/BOTTOMBOX/navigation */
+.rightpaper{
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/images10.jpg') no-repeat ;
+	background-position: -861px -47px;
+	height: 33px;
+	width: 19px;
+	float: right;
+}
+.leftpaper{
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/images10.jpg') no-repeat ;
+	background-position: -861px -80px;
+	height: 33px;
+	width: 19px;
+	float: left;
+}
+/* END/HEADER/bottombox */
+/* END/HEADER */
+/* START/CONTAINER */
+#Container {
+	margin: 0 16px 0 16px;
+}
+.rightshadow{
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/rights10.jpg') repeat-y right; 
+	padding-right: 3px;
+}
+.leftshadow{
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/leftsh10.jpg') repeat-y left; 
+	padding-left: 3px;
+}
+#incont{
+	text-align: center;
+	padding: 5px 8px 14px 8px;
+	background-color:#e9e9e9;
+}
+/* START/CONTAINER/breadcrumbsbox */
+.breadcrumbsbox{
+    width: auto ;
+    height: 25px ;
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/breadc10.gif') repeat-x top #e0e0e0;	
+	border-top: 1px solid #cacaca;
+	border-right: 1px solid #cacaca;
+	border-left: 1px solid #cacaca;
+	border-bottom: 2px solid #cacaca;
+	overflow: hidden;
+ }
+#breadcrumbsmenu {
+	list-style:none;
+ 	padding:0px;
+ 	margin:0px;
+}
+#breadcrumbsmenu .onhomebit {
+	 background:url('http://i39.servimg.com/u/f39/14/47/74/90/navbit10.gif') no-repeat;	
+	  width: 18px;
+	  height: 25px;
+	  background-position: 0 1px ;
+}
+#breadcrumbsmenu .homebit {
+	  background:url('http://i39.servimg.com/u/f39/14/47/74/90/navbit10.gif') no-repeat  ;	
+	  width: 18px;
+	  height: 25px;
+	  background-position: 0 -22px ; 
+	  display: block ; 
+	 
+}
+#breadcrumbsmenu .homebit:hover  {
+	  background-position: 0 -45px ;
+}
+#breadcrumbsmenu .homebit:active   {
+	  background-position: 0 1px ; 
+}
+#breadcrumbsmenu li {
+	 display:inline;
+}
+#breadcrumbsmenu li a {
+	 font-size: 8pt;
+	 display: block ;
+	 float: right ;
+	 position:relative;
+	 margin: 0 0 0 10px;
+	 padding: 0 5px 0 5px;
+	 height: auto ;
+	 line-height: 23px;
+	 height: 25px;
+}
+#breadcrumbsmenu li a span{
+	position:absolute;
+    height: 0px;
+    padding-top: 25px;
+    width:12px; 
+    background: url('http://i39.servimg.com/u/f39/14/47/74/90/breadc11.gif') no-repeat top;	
+	left:-10px;
+	cursor:pointer; 
+	overflow: hidden;
+	top:0;
+}
+#breadcrumbsmenu .lastcrumb a {
+	color:gray;
+	font-weight: bold ;
+}
+/* END/CONTAINER/breadcrumbsbox */
+/* START/CONTAINER/threadbuttons */
+.threadbtns {
+	height: 23px;
+	position: relative;
+	list-style:none;
+	padding: 0 ;
+	margin: 2px 0 3px 0;
+}
+.postbtns {
+	height: 25px;
+	list-style:none;
+	padding: 0 0 5px 0;
+	margin: 0 5px 0 0;
+	float: left ;
+}
+.threadbtns li  {
+	float:right ;
+	display:inline;
+	margin: 0 0 0 3px;
+	padding: 0;
+	height:24px;
+	border-top: 1px solid #b9b9b9;
+	border-right: 1px solid #b9b9b9;
+	border-left: 1px solid #b9b9b9;
+	border-bottom: 1px solid #b9b9b9;
+}
+.postbtns li {
+	float: left;
+	display:inline;
+	margin: 0 0 0 4px;
+	padding: 0;
+	height:24px;
+	border-top: 1px solid #cfcfcf;
+	border-right: 1px solid #cfcfcf;
+	border-left: 1px solid #cfcfcf;
+	border-bottom: 1px solid #cfcfcf;
+}
+.threadbtns li a , .postbtns li a {
+	text-decoration:none;
+	display:block;	
+	font: 8pt tahoma;
+	padding: 0 5px 0 6px;
+	text-align: center;
+	line-height:17px;
+	height:22px;
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png')  #bbbaba  ;
+	background-position: 0 -497px;
+	border-top:1px solid #fff;
+	border-right:1px solid #fff;
+	border-left:1px solid #fff;
+	border-bottom:1px solid #fff;
+}
+.postbtns .mqute {
+	display:block;	
+	font: 8pt tahoma;
+	padding: 3px 5px 3px 6px;
+	border-top:1px solid #fff;
+	border-right:1px solid #fff;
+	border-left:1px solid #fff;
+	border-bottom:1px solid #fff;
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png')  #bbbaba  ;
+	background-position: 0 -497px;
+	 cursor: pointer ;
+}
+.postbtns .mqute:hover  {
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png')  #e2e1e1  ;
+	background-position: 0 -537px;
+}
+.postbtns .mqute:active  {
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png') #f6f6f6  ;
+	background-position: 0 -575px;
+}
+.threadbtns li a:hover , .postbtns li a:hover   {
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png') #e2e1e1  ;
+	background-position: 0 -537px;
+}
+.threadbtns li a:active , .postbtns li a:active   {
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png') #f6f6f6  ;
+	background-position: 0 -575px;
+}
+.threadbtns .lockedth , .threadbtns .lockedth:hover , .threadbtns .lockedth:active  {
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png')  #bbbaba  ;
+	background-position: 0 -575px;
+	color: #959595;
+}
+/* END/CONTAINER/threadbuttons */
+/* END/CONTAINER  */
+/* START/FOOTER */
+#footer{
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/grds-s10.png')  repeat-x #e9e9e9; 
+	background-position: 0 bottom;
+	margin: 0px auto;
+
+}
+/* START/FOOTER/endfotabox1 */
+.endfotabox{
+    width: auto ;
+    height: 25px ;
+	margin: 16px 0 0 0;
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/breadc10.gif') repeat-x top #e0e0e0;	
+	border-top: 1px solid #cacaca;
+	border-right: 1px solid #cacaca;
+	border-left: 1px solid #cacaca;
+	border-bottom: 2px solid #cacaca;
+	overflow: hidden;
+}
+#endfotamenu1{
+	list-style:none;
+ 	padding:0px;
+ 	margin:0px;
+	height:25px; 
+}
+#endfotamenu1 li {
+	display:inline;
+	color:#4f4f4f;
+	float: right ;
+	height: 25px;
+}
+#endfotamenu1 li a {
+	display: block ;
+	line-height: 22px;
+	padding: 0 4px 0 5px;
+}
+#endfotamenu1  .stli{
+	border-left: 1px solid #b0b0b0;
+}
+#endfotamenu1 .indli{
+	border-left: 1px solid #b0b0b0;
+	border-right: 1px solid #fff;
+}
+#endfotamenu1 .enli{
+	border-right: 1px solid #fff;
+}
+#endfotamenu1 .avil:hover , #endfotamenu1 .avil:link  ,#endfotamenu1 .avil:visited  {
+	color:#4f4f4f;
+}
+/* END/FOOTER/endfotabox */
+.infooter{
+	 width: 100%;
+	 overflow:hidden;
+	 border-top: 1px solid #c8c6c6 ;
+}
+/* START/FOOTER/endfotabox2 */
+.slashbox {
+ 	border-top: 1px solid #fff ;
+}
+#endfotamenu2{
+	list-style:none;
+ 	padding:0;
+ 	margin:5px 8px 0 8px;
+}
+#endfotamenu2 li {
+	 display:inline;
+	 float: left ; 
+	 padding:0;
+ 	 margin:0;
+}
+#endfotamenu2 .vbcopyright {
+	 width: 40%;
+
+}
+#endfotamenu2 .stylecopyright {
+	 width: 40%;
+}
+#endfotamenu2 .Sociallinks {
+	 width: 20%;
+}
+#endfotamenu2 p {
+	 font-size: 8pt;
+	 float: left ;
+	 color: #777777;
+	 margin: 5px 0 5px 0;
+	 text-align: left ;
+}
+.socialmenu {
+	 list-style: none ;
+	 margin: 3px 0 0 0;
+	 padding: 0;
+	 overflow: hidden ;
+	 width: 140px ;
+}
+.socialmenu li {
+	float: right ;
+}
+.socialmenu li a {
+	margin: 2px 4px 2px 4px;
+}
+.socialmenu li span {
+	margin: 2px;
+	color: #707070;
+	width: 28px;
+	height: 28px;
+	font-size: 10px;
+	font-family: arial;
+	text-align:  center ;
+	display: block ;
+}
+.twipic {
+	 width: 28px;
+	 height: 28px;
+	 display: block ;
+	 background: url('http://i39.servimg.com/u/f39/14/47/74/90/twitte10.png') no-repeat ;
+	 background-position: 0 -28px;
+}
+.facepic {
+	 width: 28px;
+	 height: 28px;
+	 display: block ;
+	 background: url('http://i39.servimg.com/u/f39/14/47/74/90/facebo10.png') no-repeat ;
+	 background-position: 0 -28px;
+}
+.yotpic {
+	 width: 28px;
+	 height: 28px;
+	 display: block ;
+	 background: url('http://i39.servimg.com/u/f39/14/47/74/90/youtub10.png') no-repeat ;
+	 background-position: 0 -28px;
+}
+.twipic:hover , .facepic:hover , .yotpic:hover {
+	background-position: 0 -56px;	
+}
+.twipic:active , .facepic:active , .yotpic:active {
+	background-position: 0 0;
+}
+/* END/FOOTER/endfotabox2 */
+
+#bottomfooter {
+	height: 13px;
+}
+.rightc {
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/images10.jpg') no-repeat ;
+	background-position: -861px -1px;
+	height: 13px;
+	width: 13px;
+	float: right;
+
+}
+.leftc {
+	background: url('http://i39.servimg.com/u/f39/14/47/74/90/images10.jpg') no-repeat ;
+	background-position: -861px -26px;
+	height: 13px;
+	width: 13px;
+	float: left;
+	
+}
+/* END/FOOTER */
+/* yoctoPix v1.0/CSS */
+/* Definitions we expect */
+form {
+	margin: 0px;
+}
+
+label {
+	cursor: default;
+}
+
+.normal {
+	font-weight: normal;
+}
+
+.inlineimg {
+	vertical-align: middle;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.vbmenu_hilite * {
+	cursor: pointer;
+}
+
+/* Auto-clearing of floats */
+.floatcontainer:after, .block_row:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.floatcontainer, .block_row {
+	display: inline-block;
+}
+/* IE-Mac hide \*/
+* html .floatcontainer, * html .block_row {
+	height: 1%;
+}
+.floatcontainer, .block_row {
+	display: block;
+}
+/* End IE-Mac hide */
