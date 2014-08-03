@@ -1,0 +1,33 @@
+.threadblon {-moz-border-radius: 10px;-webkit-border-radius: 10px;}
+.threadblonlegacytop {-moz-border-radius: 10px 10px 0 0;-webkit-border-radius: 10px 10px 0 0;}
+.threadblonlegacybottom {-moz-border-radius: 0 0 10px 10px;-webkit-border-radius: 0 0 10px 10px;}
+.authorBox {-moz-border-radius: 10px;-webkit-border-radius: 10px;}
+.thpsqute { -moz-border-radius: 10px;-webkit-border-radius: 10px;}
+textarea, .bginput {-moz-border-radius:5px;-webkit-border-radius:5px;}
+.button {-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+select {-moz-border-radius:5px;-webkit-border-radius:5px;}
+fieldset { -moz-border-radius:5px;-webkit-border-radius:5px;}
+#infobox { -moz-border-radius: 0 0 10px 10px;-webkit-border-radius: 0 0 10px 10px;}
+#ininfobox { -moz-border-radius: 0 0 10px 10px;	-webkit-border-radius: 0 0 10px 10px;}
+#notifimenu {-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+#ininfobox .notificationsBalloon{-moz-border-radius:6px;-webkit-border-radius:6px;}
+#visinotifications .visitornote {-moz-box-shadow: 0px 2px 8px -1px  #000 ; -webkit-box-shadow: 0px 2px 8px -1px  #000 ; -moz-border-radius:10px;-webkit-border-radius:10px;}
+.linksmenu  {-moz-box-shadow: 0px 2px 8px -1px  #000 ;-webkit-box-shadow: 0px 2px 8px -1px  #000 ;-moz-border-radius: 0 0 10px 10px;-webkit-border-radius: 0 0 10px 10px;}
+.logoutcl { -moz-border-radius: 0 0 10px 10px;-webkit-border-radius: 0 0 10px 10px;}
+.qlmenu{-moz-box-shadow: 0px 2px 8px -1px  #000 ; -webkit-box-shadow: 0px 2px 8px -1px  #000 ;}
+.shbox{	-moz-box-shadow: 0px 2px 8px -1px  #000 ;-webkit-box-shadow: 0px 2px 8px -1px  #000 ; }
+.cpanelsmenu {-moz-box-shadow: 0px 2px 8px -1px  #000 ; -webkit-box-shadow: 0px 2px 8px -1px  #000 ;}
+.loginform{-moz-box-shadow: 0px 2px 8px -1px  #000 ;-webkit-box-shadow: 0px 2px 8px -1px  #000 ;-moz-border-radius: 0 0 10px 10px;-webkit-border-radius: 0 0 10px 10px;}
+.loginform .usernamebox{-moz-border-radius:5px;	-webkit-border-radius:5px;}
+.loginform .userpasswordbox {-moz-border-radius:5px;-webkit-border-radius:5px;}
+.loginform .onfocusbox{ -moz-border-radius:5px;-webkit-border-radius:5px;}
+.loginform .onblurbox{	-moz-border-radius:5px;	-webkit-border-radius:5px;}
+.loginform .sumbut {-moz-border-radius:5px;	-webkit-border-radius:5px;}
+#starta , #home { -moz-border-radius: 0 10px 0 0;-webkit-border-radius: 0 10px 0 0;}
+#enda , #callus { -moz-border-radius: 10px 0 0 0;-webkit-border-radius: 10px 0 0 0;}
+.breadcrumbsbox{   -moz-border-radius: 10px 10px 0 0;  -webkit-border-radius: 10px 10px 0 0;}
+.postbtns li , .postbtns li a , .postbtns .mqute{-moz-border-radius: 7px;-webkit-border-radius: 7px;}
+.threadbtns li , .threadbtns li a  {-moz-border-radius: 10px;-webkit-border-radius: 10px;}
+.threadbtns .rightb , .threadbtns .rightb a  {-moz-border-radius: 0 10px 10px 0;-webkit-border-radius: 0 10px 10px 0;}
+.threadbtns .leftb , .threadbtns .leftb a  {-moz-border-radius: 10px 0 0 10px;-webkit-border-radius: 10px 0 0 10px;}
+.endfotabox{  -moz-border-radius: 0 0 10px 10px;-webkit-border-radius: 0 0 10px 10px;}
