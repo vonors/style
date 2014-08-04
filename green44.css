@@ -685,7 +685,7 @@ body
 	height: 26px;
 	background:  url('https://dl.dropboxusercontent.com/s/sar3ily4h5ncq3a/grds-sprite77.png') repeat-x  #023555;
 	background-position: 0 -3307px;
-	border: 1px solid #4c000c;
+	border: 1px solid #1e4c00;
 	z-index: 20;
 	cursor: pointer ;
 }
@@ -1030,7 +1030,7 @@ body
 	height: 26px;
 	background:  url('https://dl.dropboxusercontent.com/s/sar3ily4h5ncq3a/grds-sprite77.png') repeat-x  #023555;
 	background-position: 0 -3307px;
-	border: 1px solid #4c000c;
+	border: 1px solid #1e4c00;
 	z-index: 20;
 	cursor: pointer ;
 }
@@ -1070,7 +1070,7 @@ body
 }
 #header #logo a {
 	background: url('http://i39.servimg.com/u/f39/14/47/74/90/images11.jpg') no-repeat  ;
-	background-position: 0 -565px;
+	background-position: 0 -452px;
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -1078,7 +1078,7 @@ body
 	cursor:pointer ;
 }
 #header #logo a:hover {
-	background-position: -431px -565px;
+	background-position: -431px -452px;
 }
 /* END/HEADER/TOPBOX/leftpart */
 /* END/HEADER/topbox */
@@ -1105,9 +1105,9 @@ body
 	display:inline;
 	margin: 0 0 0 2px;
 	padding:0;
-	border-top: 1px solid #001929;
-	border-right: 1px solid #001929;
-	border-left: 1px solid #001929;
+	border-top: 1px solid #0b2900;
+	border-right: 1px solid #0b2900;
+	border-left: 1px solid #0b2900;
 }
 #nav li a {
 	text-decoration:none;
