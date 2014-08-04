@@ -39,7 +39,7 @@ td, th, p, li
 .tcat
 {
 	background: #550202 url('https://dl.dropboxusercontent.com/s/sar3ily4h5ncq3a/grds-sprite77.png') repeat-x ;
-	background-position: 0 -2117pxpx;
+	background-position: 0 -2117px;
 	color: #FFFFFF;
 	font: bold 8pt tahoma;
 }
@@ -565,16 +565,16 @@ body
 	margin-right:24px;
 	padding: 0px;
 	float: right ;
-	border-bottom: 1px solid #2672a0;
-	border-right: 1px solid #2672a0;
-	border-left: 1px solid #2672a0;
+	border-bottom: 1px solid #a02626;
+	border-right: 1px solid #a02626;
+	border-left: 1px solid #a02626;
 }
 #ininfobox {
 	background: url('https://dl.dropboxusercontent.com/s/sar3ily4h5ncq3a/grds-sprite77.png') repeat-x  ;
 	background-position: 0 -1695px;
-	border-bottom: 1px solid #001e31;
-	border-right: 1px solid #001e31;
-	border-left: 1px solid #001e31;
+	border-bottom: 1px solid #310000;
+	border-right: 1px solid #310000;
+	border-left: 1px solid #310000;
 	width: 250px;
 	float: right ;
     height: 50px;
