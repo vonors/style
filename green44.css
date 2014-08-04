@@ -6,17 +6,17 @@
 
 a:link, body_alink
 {
-	color: #aa0000;
+	color: #1c5a00;
 	text-decoration: none;
 }
 a:visited, body_avisited
 {
-	color: #aa0000;
+	color: #1c5a00;
 	text-decoration: none;
 }
 a:hover, a:active, body_ahover
 {
-	color: #d70000;
+	color: #32a500;
 	text-decoration: none;
 }
 .page
@@ -242,7 +242,7 @@ td, th, p, li
 	border-bottom: 1px  #e0e0e0 solid;
 	border-top: 1px  #fff solid;
 	padding: 1px 1px 3px 1px ;
-	color: #aa0000;
+	color: #32a500;
 	white-space: nowrap ;
 	display: inline-block ;
 }
