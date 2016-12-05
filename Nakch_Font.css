@@ -1,13 +1,13 @@
 /* KFGQPC Uthman Taha Naskh */
 @font-face {
 	font-family: "Naskh";
-	src: url('//www.islambook.com/files/fonts/uthmantnuthmantn.eot'); /* IE9 Compat Modes */
-	src: local('KFGQPC Uthman Taha Naskh'),
-		   url('//www.islambook.com/files/fonts/uthmantnuthmantn.eot?iefix') format('eot'), /* IE6-IE8 */
-		   url('//www.islambook.com/files/fonts/uthmantn.otf') format('opentype'), 
-		   url('//www.islambook.com/files/fonts/uthmantn.woff') format('woff'), /* Modern Browsers */
-		   url('//www.islambook.com/files/fonts/uthmantn.ttf') format('truetype'),  /* Safari, Android, iOS */
-		   url('//www.islambook.com/files/fonts/uthmantn.svg#svgFontName') format('svg'); /* Legacy iOS */
+	src: url(//www.islambook.com/files/fonts/uthmantnuthmantn.eot); /* IE9 Compat Modes */
+	src: url(//www.islambook.com/files/fonts/uthmantnuthmantn.eot?iefix) format('eot'),
+             url(//www.islambook.com/files/fonts/uthmantn.otf) format('opentype'), 
+             url(//www.islambook.com/files/fonts/uthmantn.woff) format('woff'), /* Modern Browsers */
+             url(//www.islambook.com/files/fonts/uthmantn.ttf) format('truetype'),  /* Safari, Android, iOS */
+	     url(//www.islambook.com/files/fonts/uthmantn.svg#svgFontName) format('svg'); /* Legacy iOS */
+	
 } 
 
 /* KFGQPC Uthmanic Script Taha HAFS, has problem with the comma etc */
