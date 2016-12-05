@@ -1,26 +1,26 @@
 /* KFGQPC Uthman Taha Naskh */
 @font-face {
 	font-family: "Naskh";
-	src: url('https://www.islambook.com/files/fonts/uthmantn.eot'); /* IE9 Compat Modes */
+	src: url('//www.islambook.com/files/fonts/uthmantn.eot'); /* IE9 Compat Modes */
 	src: local('KFGQPC Uthman Taha Naskh'),
-		   url('https://www.islambook.com/files/fonts/uthmantn.eot?iefix') format('eot'), /* IE6-IE8 */
-		   url('https://www.islambook.com/files/fonts/uthmantn.otf') format('opentype'), 
-		   url('https://www.islambook.com/files/fonts/uthmantn.woff') format('woff'), /* Modern Browsers */
-		   url('https://www.islambook.com/files/fonts/uthmantn.ttf') format('truetype'),  /* Safari, Android, iOS */
-		   url('https://www.islambook.com/files/fonts/uthmantn.svg#svgFontName') format('svg'); /* Legacy iOS */
+		   url('//www.islambook.com/files/fonts/uthmantn.eot?iefix') format('eot'), /* IE6-IE8 */
+		   url('//www.islambook.com/files/fonts/uthmantn.otf') format('opentype'), 
+		   url('//www.islambook.com/files/fonts/uthmantn.woff') format('woff'), /* Modern Browsers */
+		   url('//www.islambook.com/files/fonts/uthmantn.ttf') format('truetype'),  /* Safari, Android, iOS */
+		   url('//www.islambook.com/files/fonts/uthmantn.svg#svgFontName') format('svg'); /* Legacy iOS */
 } 
 
 /* KFGQPC Uthmanic Script Taha HAFS, has problem with the comma etc */
 
 @font-face {
 	font-family: "DS-Digital";
-	src: url('https://www.islambook.com/files/fonts/dsdigib.eot'); /* IE9 Compat Modes */
+	src: url('//www.islambook.com/files/fonts/dsdigib.eot'); /* IE9 Compat Modes */
 	src: local('DS-Digital'),
-		   url('https://www.islambook.com/files/fonts/dsdigib.eot?iefix') format('eot'), /* IE6-IE8 */
-		   url('https://www.islambook.com/files/fonts/dsdigib.otf') format('opentype'), 
-		   url('https://www.islambook.com/files/fonts/dsdigib.woff') format('woff'), /* Modern Browsers */
-		   url('https://www.islambook.com/files/fonts/dsdigib.ttf') format('truetype'),  /* Safari, Android, iOS */
-		   url('https://www.islambook.com/files/fonts/dsdigib.svg#svgFontName') format('svg'); /* Legacy iOS */
+		   url('//www.islambook.com/files/fonts/dsdigib.eot?iefix') format('eot'), /* IE6-IE8 */
+		   url('//www.islambook.com/files/fonts/dsdigib.otf') format('opentype'), 
+		   url('//www.islambook.com/files/fonts/dsdigib.woff') format('woff'), /* Modern Browsers */
+		   url('//www.islambook.com/files/fonts/dsdigib.ttf') format('truetype'),  /* Safari, Android, iOS */
+		   url('//www.islambook.com/files/fonts/dsdigib.svg#svgFontName') format('svg'); /* Legacy iOS */
 } 
 
 .btn-toolbar>.btn, .btn-toolbar>.btn-group, .btn-toolbar>.input-group {
